@@ -40,3 +40,32 @@
 .read-the-docs {
   color: #888;
 }
+
+.numeros{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  background: #4296e4;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.operaciones{
+  display: flex;
+  margin-top: 5px;
+}
+
+.restar,.dividir,.sumar,.mostrar,.multiplicar{
+  background-color: #4296e4;
+  border-radius: 0%;
+  border-color:black;
+}
+
+.input{
+  display: flex;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
